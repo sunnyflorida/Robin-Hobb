@@ -1,0 +1,202 @@
+.main, .author, .books, .books_list, .books_list_ml, .links  {
+	min-width: 481px;
+	margin: 70px auto 50px auto;
+}
+
+/* Скрываем обычное оглавление и заменяем на оглавление в виде таблицы*/
+#av_nav {
+	display: inline-block;
+	text-align: center;
+}
+#big_nav {
+	display: none;
+}
+#small_nav {
+	display: none;
+}
+
+/* Делаем адаптивный дизайн */
+.big_wrapper { /* на страницах с книгами и автором*/
+	width: auto;
+	text-align: justify;
+}
+
+.main_wrapper {
+	width: auto;
+	float: none;
+}
+.references {
+	float: none;
+	margin-left: 0;
+}
+
+.wrapper_main_page { /* на главной странице */
+	width: auto;
+}
+
+.menu {
+	width: auto;
+	float: none;
+	margin-top: 200px;
+}
+
+.field_main {
+	margin-left: 0;
+	float: none;
+}
+/* End Делаем адаптивный дизайн */
+
+	
+
+/* Ссылки на главной странице */
+.menu {
+	background: none;
+	position: absolute;
+	top: 10px;
+}
+
+.link1,
+.link2,
+.link3,
+.link4 ,
+.link5 {
+	border-radius: 10px;
+}
+
+.main_nav li {
+	padding: 10px 10px;
+	margin: 10px 0;
+	width: 220px;
+}
+
+/* End Ссылки на главной странице */
+
+
+
+
+
+/* Text decoration*/
+.author, .books, .books_list, .books_list_ml, .links  {
+	font-size: 14px;
+	line-height: 140%;
+	text-indent: 2em;
+}
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 2.5em;
+	margin: 15px;
+}
+h6 {
+	font-size: 1.8em;
+	margin: 5px;
+}
+
+.field_main blockquote {
+	font-size: .9em;
+	padding: 10px;
+	margin: 20px;
+	width: auto;
+}
+.field_main article {
+	position: static;
+}
+
+/* Оформление ссылок в виде таблицы */
+.td_main , 
+.td_author, 
+.td_books , 
+.td_books_rh, 
+.td_books_ml, 
+.td_links {
+	padding: 5px 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #999;
+}
+.td_main {
+	border: 2px solid #999;
+	border-bottom: 4px solid rgb(186, 85, 211);
+	background-color: rgba(186, 85, 211,.6);
+}
+.td_author {
+	border: 2px solid #999;
+	border-bottom: 4px solid rgb(238, 0, 0);
+	background-color: rgba(238, 0, 0, .6);
+}
+.td_books {
+	border: 2px solid #999;
+	border-bottom: 4px solid rgb(69, 139, 0);
+	background-color: rgba(69, 139, 0, .6);
+}
+.td_books_rh {
+	border: 2px solid #999;
+	border-bottom: 4px solid rgb(126, 192, 238);
+	background-color: rgba(126, 192, 238,.6);
+}
+.td_books_ml {
+	border: 2px solid #999;
+	border-bottom: 4px solid rgb(58, 95, 205);
+	background-color: rgba(108, 166, 205, .6);
+}
+.td_links {
+	border: 2px solid #999;
+	border-bottom: 4px solid rgb(255, 215, 0);
+	background-color: rgba(255, 215, 0, .6);
+}
+/* Активные вкладки */
+.author .td_author { 
+	background-color: white; 
+} 
+.books .td_books {
+	background-color: white; 
+} 
+.books_list .td_books_rh {
+	background-color: white; 
+}
+.books_list_ml .td_books_ml {
+	background-color: white; 
+}
+.links .td_links  {
+	background-color: white;
+}
+
+.td_main:hover {
+	background-color: #CD6090;
+}
+.td_author:hover {
+	background-color: #FF4040;
+}
+
+.td_books:hover {
+	background-color: #00CD66;
+}
+
+.td_books_rh:hover {
+	background-color: #AEEEEE;
+}
+
+.td_books_ml:hover {
+	background-color: #79CDCD;
+}
+
+.td_links:hover {
+	background-color: #EEEE00;
+}
+
+table a:hover {
+	color: #fff;
+}
+
+#av_nav table {
+	border-collapse: separate;
+	border-spacing: 5px;
+}
+
+
+/* End Оформление ссылок в виде таблицы */

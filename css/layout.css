@@ -1,0 +1,90 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+
+
+
+/* For IE Чтобы понимал плавающие элементы */
+
+.main, .author, .books, .books_list, .books_list_ml, .links {
+	zoom: 1;
+}
+/* End for IE */
+
+.main, .author, .books, .books_list, .books_list_ml, .links  {
+	max-width: 1000px;
+	min-width: 750px;
+	min-height: 100%;
+	margin: 100px auto 50px auto;
+	position: relative;
+}
+
+.main {
+	margin: 50px auto 50px auto;
+}
+
+/* разметка для Автора и книг */
+.big_wrapper {
+	width: 100%;
+	text-align: justify;
+}
+
+.main_wrapper {
+	width: 70%;
+	float: left;
+	padding: 0px 25px;
+}
+
+.references {
+	margin-left: 70%;
+	padding: 0 10px;
+}
+	
+/* End разметка для Автора и книг */
+
+.clear { /* Решает проблему с футером: ниже его ничего не опускается*/
+	clear: both;
+	margin-bottom: 50px;
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	height: 50px;
+	bottom: 0;
+	position: absolute;
+}
+
+.main_wrapper article { /* запрещает обтекание для описания книг*/
+	clear: both;
+}
+
+
+/* разметка для Главной страницы */
+.wrapper_main_page {
+	width: 100%;
+	text-align: left;
+}
+
+.menu {
+	width: 30%;
+	float: left;
+}
+
+.field_main {
+	margin-left: 32%;
+	position: relative;
+}
+
+
+/* End разметка для Главной страницы */
+
+
+

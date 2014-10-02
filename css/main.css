@@ -1,0 +1,6 @@
+@import url(reset.css);
+@import url(layout.css);
+@import url(decoration.css);
+@import url(links.css);
+@import url(average.css)(min-width:481px) and (max-width:749px);
+@import url(small.css)(max-width:481px);

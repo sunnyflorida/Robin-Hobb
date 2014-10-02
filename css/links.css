@@ -1,0 +1,192 @@
+#av_nav {
+	display: none;
+}
+#small_nav {
+	display: none;
+}
+
+.author nav li,
+.books nav li,
+.books_list nav li,
+.books_list_ml nav li,
+.links nav li {
+	list-style-type: none;
+	display: inline-block;
+	float: left;
+	position: relative;
+	text-decoration: none;
+	line-height: 100%;
+	text-indent: 0;
+	top: -38px;
+	margin: 0 5px;
+}
+
+nav a {
+	display: block;
+}
+
+/* ÷вета границ неактивных вкладок */
+.a_main {
+	border: 3px solid purple;
+}
+.a_author {
+	border: 3px solid #EE0000;
+}
+.a_books {
+	border: 3px solid #458B00;
+}
+.a_books_rh {
+	border: 3px solid #7EC0EE;
+}
+.a_books_ml {
+	border: 3px solid #3A5FCD;
+}
+.a_links {
+	border: 3px solid #FFD700;
+}
+.a_main , 
+.a_author, 
+.a_books , 
+.a_books_rh, 
+.a_books_ml, 
+.a_links {
+	border-bottom: none;
+	border-radius: 10px 10px 0 0;
+	padding: 10px 5px 8px 5px;
+	background-color: #eee;
+}
+/* End ÷вета границ неактивных вкладок */
+
+
+
+/* јктивные вкладки */
+.author .a_author, 
+.books .a_books , 
+.books_list .a_books_rh,
+.books_list_ml .a_books_ml,
+.links .a_links  {
+	border-bottom: 4px solid white;
+	background-color: white;
+}
+
+
+/* —сылки на главной странице */
+
+.main_nav a {
+	display: block;
+	color: black;
+	font-size: 14px;
+	font-family: Verdana;
+}
+
+.main_nav li {
+	list-style-type: none;
+	text-decoration: none;
+	padding: 10px 10px;
+	margin: 10px 0 10px 20px;
+	max-width: 200px;
+}
+
+.main_nav ul:first-child {
+	margin-top: 25px;
+}
+
+.menu {
+	background: url("../ico/menu.jpg") no-repeat top left;
+	position: absolute;
+	top: 35%;
+	height: 269px;
+}
+
+.link1,
+.link2,
+.link3,
+.link4 ,
+.link5 {
+	border-radius: 0 10px 10px 0;
+	box-shadow: 5px 5px 5px #999;
+}
+
+.link1 {
+	background-color: #EE0000;
+	opacity: 0.87;
+}
+
+.link2 {
+	background-color: #458B00;
+	opacity: 0.87;
+}
+
+.link3 {
+	background-color: #00C5CD;
+	opacity: 0.87;
+}
+
+.link4 {
+	background-color: #3A5FCD;
+	opacity: 0.87;
+}
+
+.link5 {
+	background-color: #FFD700;
+	opacity: 0.87;
+}
+
+.link1:hover {
+	background-color: #FF4040;
+	color: white;
+}
+
+.link2:hover {
+	background-color: #00CD66;
+	color: white;
+}
+
+.link3:hover {
+	background-color: #8DEEEE;
+	color: white;
+}
+
+.link4:hover {
+	background-color: #6CA6CD;
+	color: white;
+}
+
+.link5:hover {
+	background-color: #EEEE00;
+	color: white;
+}
+
+/* End —сылки на главной странице */
+
+/* —сылки страницах с книгами */
+.main_wrapper a {
+	font-size: 0.7em;
+	vertical-align: middle;
+}
+.main_wrapper a:link, .main_wrapper a:visited {
+	color: #8B008B;
+} 
+.main_wrapper a:hover {
+	color: #EE0000;
+}
+
+header a:link,
+header a:visited{
+	color: #333;
+}
+header a:hover,
+header a:active {
+	color: red;
+	text-decoration: underline;
+}
+
+
+/* End —сылки страницах с книгами */
+
+
+
+
+
+
+

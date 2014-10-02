@@ -1,0 +1,246 @@
+body {
+	background-color: #eee;
+}
+
+.main, .author, .books, .books_list, .books_list_ml, .links  {
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 0 0 15px 15px #999;
+}
+
+
+
+/* Different colors */
+
+.author {
+	border: 3px solid #EE0000;
+}
+.author footer {
+	border-top: 2px solid #EE0000;
+}
+
+.books {
+	border: 3px solid #458B00;
+}
+.books footer {
+	border-top: 2px solid #458B00;
+}
+
+.books_list  {
+	border: 3px solid #7EC0EE;
+}
+.books_list footer {
+	border-top: 2px solid #7EC0EE;
+}
+
+.books_list_ml  {
+	border: 3px solid #3A5FCD;
+}
+.books_list_ml footer {
+	border-top: 2px solid #3A5FCD;
+}
+
+.links {
+	border: 3px solid #FFD700;
+}
+.links footer {
+	border-top: 2px solid #FFD700;
+}
+
+
+.author blockquote {
+	border-top: 1px solid #EE0000;
+	border-left: 1px solid #EE0000;
+	border-radius: 20px 0 0 0;
+	padding: 10px;
+}
+
+.books blockquote {
+	border-top: 1px solid #458B00;
+	border-left: 1px solid #458B00;
+	border-radius: 20px 0 0 0;
+	padding: 10px;
+} 
+.books_list blockquote {
+	border-top: 1px solid #7EC0EE;
+	border-left: 1px solid #7EC0EE;
+	border-radius: 20px 0 0 0;
+	padding: 10px;
+}
+.books_list_ml blockquote {
+	border-top: 1px solid #3A5FCD;
+	border-left: 1px solid #3A5FCD;
+	border-radius: 20px 0 0 0;
+	padding: 10px;
+}
+
+
+/* End Different colors */
+
+
+
+/* Text decoration*/
+
+.author, .books, .books_list, .books_list_ml, .links  {
+	font-family: Helvetica, Tahoma, Arial, Sans-serif;
+	font-size: 14px;
+	color: #333;
+	line-height: 150%;
+	text-indent: 3em;
+}
+
+.author .main_wrapper p:first-letter {
+	font-size: 1.5em;
+	color: #EE0000;
+}
+
+.references blockquote {
+	font-style: italic;
+	font-size: 0.85em;
+	margin: 60px 5px;
+}
+
+.references p {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-top: 50px;
+	margin-bottom: -30px;
+	text-align: center;
+}
+
+.field_main blockquote {
+	float: right;
+	width: 45%;
+	font-style: italic;
+	font-size: 1.1em;
+	margin: 120px 20px 10px 10px;
+	border: 2px solid #32CD32;
+	border-radius: 10px;
+	padding: 15px;
+	background: rgba(50,205,50,.5);
+}
+.field_main article {
+	position: relative;
+	top: 100px;
+}
+
+
+/* End Text decoration*/
+
+/* Headings decoration*/
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+	clear: both;
+	color: #00008B;
+}
+
+h2 {
+	font-size: 2.5em;
+	text-align: center;
+	font-style: italic;	
+	clear: both;
+	color: #00868B;
+}
+
+h3 {
+	font-size: 3em;
+	text-shadow: 3px 3px 3px #999;
+	margin: 20px;
+	color: #458B00;
+	clear: both;
+}
+
+
+h4{
+	font-size: 2em;
+	text-shadow: 3px 3px 3px #aaa;
+	margin: 60px 15px 15px 15px;
+	color: #528B8B;
+	clear: both;
+}
+
+h5{
+	font-size: 1.5em;
+	text-shadow: 3px 3px 3px #ddd;
+	margin: 5px;
+	font-style: italic;
+	color: #668B8B;
+}
+
+h6 {
+	font-size: 1.5em;
+	text-shadow: 3px 3px 3px #ddd;
+	margin: 10px;
+	color: #458B00;
+}
+
+.books .main_wrapper p {
+	font-size: 1.2em;
+	text-shadow: 3px 3px 3px #ddd;
+}
+
+/* End Headings decoration*/
+
+/* List decoration */
+
+.main_wrapper li {
+	list-style-position: inside;
+	list-style-type: decimal;
+}
+
+/* End List decoration */
+
+
+/* Images decoration */
+
+.float_left {
+	float: left;
+	margin: 10px 25px 10px 0;
+}
+
+.float_right {
+	float: right;
+	margin: 10px 0 10px 25px;
+}
+
+.author .main_wrapper  img{
+	width: 30%;
+}
+.main  img{
+	width: 20%;
+	position: absolute;
+}
+
+.book_wrappers {
+	height: 200px;
+}
+
+.fixed {
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+	height: 7%;
+	border-radius: 5px;
+	opacity: .4;
+	box-shadow: 5px 5px 5px #555;
+}
+
+.fixed:hover {
+	opacity: 1;
+}
+
+/* End Images decoration */
+
+/* Background decoration */
+.main {
+	background: #fff;
+	background: url("../ico/pic_main.jpg") no-repeat center bottom;
+}
+
+
+/* End Background decoration */
+
+
